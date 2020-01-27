@@ -195,8 +195,8 @@ class SettingsController: UITableViewController {
         let point = sender.convert(sender.bounds.origin, to: tableView)
         
         if let indexPath = tableView.indexPathForRow(at: point) {
-            let section = indexPath.section
-            let row = indexPath.row
+            //let section = indexPath.section
+            //let row = indexPath.row
             
             //if section == 0 && row == 1 {
             
