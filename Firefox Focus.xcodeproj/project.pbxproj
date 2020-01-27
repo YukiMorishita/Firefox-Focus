@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A3D25223CF3926003C91F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D25123CF3926003C91F0 /* AppDelegate.swift */; };
+		84A3D25423CF3926003C91F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D25323CF3926003C91F0 /* SceneDelegate.swift */; };
+		84A3D25923CF3926003C91F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A3D25723CF3926003C91F0 /* Main.storyboard */; };
+		84A3D25B23CF3928003C91F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A3D25A23CF3928003C91F0 /* Assets.xcassets */; };
+		84A3D25E23CF3928003C91F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A3D25C23CF3928003C91F0 /* LaunchScreen.storyboard */; };
+		84A3D26923CF3929003C91F0 /* Firefox_FocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D26823CF3929003C91F0 /* Firefox_FocusTests.swift */; };
+		84A3D27423CF3929003C91F0 /* Firefox_FocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D27323CF3929003C91F0 /* Firefox_FocusUITests.swift */; };
+		84A3D29123CF6186003C91F0 /* PTSansNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A3D28F23CF60E1003C91F0 /* PTSansNarrow-Bold.ttf */; };
+		84A3D29223CF6186003C91F0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A3D29023CF60FC003C91F0 /* OpenSans-Regular.ttf */; };
+		84A3D29623D0EAB6003C91F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D28623CF42DD003C91F0 /* Extensions.swift */; };
+		84A3D29823D10CAB003C91F0 /* MainSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D29723D10CAB003C91F0 /* MainSearchBar.swift */; };
+		84A3D29A23D10F83003C91F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D28423CF4232003C91F0 /* HomeViewController.swift */; };
+		84A3D29C23D1205A003C91F0 /* SuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D29B23D1205A003C91F0 /* SuggestionCell.swift */; };
+		84A3D2A423D34EFF003C91F0 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2A323D34EFF003C91F0 /* SettingCell.swift */; };
+		84A3D2A623D35233003C91F0 /* TrackingProtectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2A523D35233003C91F0 /* TrackingProtectionViewController.swift */; };
+		84A3D2A923D35595003C91F0 /* TrackingProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2A823D35595003C91F0 /* TrackingProtection.swift */; };
+		84A3D2AB23D355A5003C91F0 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2AA23D355A5003C91F0 /* Setting.swift */; };
+		84A3D2AC23D36E8C003C91F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D29D23D2491B003C91F0 /* SettingsViewController.swift */; };
+		84A3D2AD23D36E8C003C91F0 /* MozillaSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2A123D25CDA003C91F0 /* MozillaSupportViewController.swift */; };
+		84A3D2AF23D37091003C91F0 /* TrackingProtectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2AE23D37091003C91F0 /* TrackingProtectionFooterView.swift */; };
+		84A3D2B123D370BE003C91F0 /* TrackingProtectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2B023D370BE003C91F0 /* TrackingProtectionCell.swift */; };
+		84A3D2B323D38198003C91F0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2B223D38198003C91F0 /* AboutViewController.swift */; };
+		84A3D2B523D3B36E003C91F0 /* AboutHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2B423D3B36E003C91F0 /* AboutHeaderView.swift */; };
+		84A3D2BB23D61426003C91F0 /* MainNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2BA23D61426003C91F0 /* MainNavigationBar.swift */; };
+		84A3D2BD23D61445003C91F0 /* MainToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2BC23D61445003C91F0 /* MainToolBar.swift */; };
+		84A3D2C023D90B9F003C91F0 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2BF23D90B9F003C91F0 /* SearchEngine.swift */; };
+		84A3D2C223D90E90003C91F0 /* SearchEngineSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2C123D90E90003C91F0 /* SearchEngineSuggestion.swift */; };
+		84A3D2C423D90FD4003C91F0 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D2C323D90FD4003C91F0 /* Suggestion.swift */; };
+		84A3D2C823DA5E06003C91F0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D28123CF3999003C91F0 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A3D26523CF3929003C91F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A3D24623CF3926003C91F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A3D24D23CF3926003C91F0;
+			remoteInfo = "Firefox Focus";
+		};
+		84A3D27023CF3929003C91F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A3D24623CF3926003C91F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A3D24D23CF3926003C91F0;
+			remoteInfo = "Firefox Focus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A3D24E23CF3926003C91F0 /* Firefox Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firefox Focus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A3D25123CF3926003C91F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A3D25323CF3926003C91F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84A3D25823CF3926003C91F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A3D25A23CF3928003C91F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A3D25D23CF3928003C91F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A3D25F23CF3928003C91F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A3D26423CF3929003C91F0 /* Firefox FocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firefox FocusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A3D26823CF3929003C91F0 /* Firefox_FocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firefox_FocusTests.swift; sourceTree = "<group>"; };
+		84A3D26A23CF3929003C91F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A3D26F23CF3929003C91F0 /* Firefox FocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firefox FocusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A3D27323CF3929003C91F0 /* Firefox_FocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firefox_FocusUITests.swift; sourceTree = "<group>"; };
+		84A3D27523CF3929003C91F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A3D28123CF3999003C91F0 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		84A3D28423CF4232003C91F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84A3D28623CF42DD003C91F0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84A3D28F23CF60E1003C91F0 /* PTSansNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSansNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		84A3D29023CF60FC003C91F0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		84A3D29723D10CAB003C91F0 /* MainSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchBar.swift; sourceTree = "<group>"; };
+		84A3D29B23D1205A003C91F0 /* SuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCell.swift; sourceTree = "<group>"; };
+		84A3D29D23D2491B003C91F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		84A3D2A123D25CDA003C91F0 /* MozillaSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozillaSupportViewController.swift; sourceTree = "<group>"; };
+		84A3D2A323D34EFF003C91F0 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		84A3D2A523D35233003C91F0 /* TrackingProtectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProtectionViewController.swift; sourceTree = "<group>"; };
+		84A3D2A823D35595003C91F0 /* TrackingProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProtection.swift; sourceTree = "<group>"; };
+		84A3D2AA23D355A5003C91F0 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		84A3D2AE23D37091003C91F0 /* TrackingProtectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProtectionFooterView.swift; sourceTree = "<group>"; };
+		84A3D2B023D370BE003C91F0 /* TrackingProtectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProtectionCell.swift; sourceTree = "<group>"; };
+		84A3D2B223D38198003C91F0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		84A3D2B423D3B36E003C91F0 /* AboutHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHeaderView.swift; sourceTree = "<group>"; };
+		84A3D2BA23D61426003C91F0 /* MainNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationBar.swift; sourceTree = "<group>"; };
+		84A3D2BC23D61445003C91F0 /* MainToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolBar.swift; sourceTree = "<group>"; };
+		84A3D2BF23D90B9F003C91F0 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		84A3D2C123D90E90003C91F0 /* SearchEngineSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngineSuggestion.swift; sourceTree = "<group>"; };
+		84A3D2C323D90FD4003C91F0 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A3D24B23CF3926003C91F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26123CF3929003C91F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26C23CF3929003C91F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A3D24523CF3926003C91F0 = {
+			isa = PBXGroup;
+			children = (
+				84A3D25023CF3926003C91F0 /* Firefox Focus */,
+				84A3D26723CF3929003C91F0 /* Firefox FocusTests */,
+				84A3D27223CF3929003C91F0 /* Firefox FocusUITests */,
+				84A3D24F23CF3926003C91F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A3D24F23CF3926003C91F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D24E23CF3926003C91F0 /* Firefox Focus.app */,
+				84A3D26423CF3929003C91F0 /* Firefox FocusTests.xctest */,
+				84A3D26F23CF3929003C91F0 /* Firefox FocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A3D25023CF3926003C91F0 /* Firefox Focus */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D28D23CF60CD003C91F0 /* Utils */,
+				84A3D2A723D35589003C91F0 /* Models */,
+				84A3D28923CF57C8003C91F0 /* Views */,
+				84A3D28823CF57C3003C91F0 /* Controllers */,
+				84A3D25123CF3926003C91F0 /* AppDelegate.swift */,
+				84A3D25323CF3926003C91F0 /* SceneDelegate.swift */,
+				84A3D25723CF3926003C91F0 /* Main.storyboard */,
+				84A3D25A23CF3928003C91F0 /* Assets.xcassets */,
+				84A3D25C23CF3928003C91F0 /* LaunchScreen.storyboard */,
+				84A3D25F23CF3928003C91F0 /* Info.plist */,
+			);
+			path = "Firefox Focus";
+			sourceTree = "<group>";
+		};
+		84A3D26723CF3929003C91F0 /* Firefox FocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D26823CF3929003C91F0 /* Firefox_FocusTests.swift */,
+				84A3D26A23CF3929003C91F0 /* Info.plist */,
+			);
+			path = "Firefox FocusTests";
+			sourceTree = "<group>";
+		};
+		84A3D27223CF3929003C91F0 /* Firefox FocusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D27323CF3929003C91F0 /* Firefox_FocusUITests.swift */,
+				84A3D27523CF3929003C91F0 /* Info.plist */,
+			);
+			path = "Firefox FocusUITests";
+			sourceTree = "<group>";
+		};
+		84A3D28823CF57C3003C91F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D28423CF4232003C91F0 /* HomeViewController.swift */,
+				84A3D28123CF3999003C91F0 /* WebViewController.swift */,
+				84A3D29D23D2491B003C91F0 /* SettingsViewController.swift */,
+				84A3D2A523D35233003C91F0 /* TrackingProtectionViewController.swift */,
+				84A3D2A123D25CDA003C91F0 /* MozillaSupportViewController.swift */,
+				84A3D2B223D38198003C91F0 /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84A3D28923CF57C8003C91F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D2BA23D61426003C91F0 /* MainNavigationBar.swift */,
+				84A3D2BC23D61445003C91F0 /* MainToolBar.swift */,
+				84A3D29723D10CAB003C91F0 /* MainSearchBar.swift */,
+				84A3D29B23D1205A003C91F0 /* SuggestionCell.swift */,
+				84A3D2A323D34EFF003C91F0 /* SettingCell.swift */,
+				84A3D2B023D370BE003C91F0 /* TrackingProtectionCell.swift */,
+				84A3D2AE23D37091003C91F0 /* TrackingProtectionFooterView.swift */,
+				84A3D2B423D3B36E003C91F0 /* AboutHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84A3D28D23CF60CD003C91F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D28E23CF60D4003C91F0 /* Fonts */,
+				84A3D28623CF42DD003C91F0 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84A3D28E23CF60D4003C91F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D28F23CF60E1003C91F0 /* PTSansNarrow-Bold.ttf */,
+				84A3D29023CF60FC003C91F0 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84A3D2A723D35589003C91F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84A3D2C323D90FD4003C91F0 /* Suggestion.swift */,
+				84A3D2BF23D90B9F003C91F0 /* SearchEngine.swift */,
+				84A3D2C123D90E90003C91F0 /* SearchEngineSuggestion.swift */,
+				84A3D2AA23D355A5003C91F0 /* Setting.swift */,
+				84A3D2A823D35595003C91F0 /* TrackingProtection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A3D24D23CF3926003C91F0 /* Firefox Focus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3D27823CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox Focus" */;
+			buildPhases = (
+				84A3D24A23CF3926003C91F0 /* Sources */,
+				84A3D24B23CF3926003C91F0 /* Frameworks */,
+				84A3D24C23CF3926003C91F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firefox Focus";
+			productName = "Firefox Focus";
+			productReference = 84A3D24E23CF3926003C91F0 /* Firefox Focus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A3D26323CF3929003C91F0 /* Firefox FocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3D27B23CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox FocusTests" */;
+			buildPhases = (
+				84A3D26023CF3929003C91F0 /* Sources */,
+				84A3D26123CF3929003C91F0 /* Frameworks */,
+				84A3D26223CF3929003C91F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A3D26623CF3929003C91F0 /* PBXTargetDependency */,
+			);
+			name = "Firefox FocusTests";
+			productName = "Firefox FocusTests";
+			productReference = 84A3D26423CF3929003C91F0 /* Firefox FocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A3D26E23CF3929003C91F0 /* Firefox FocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3D27E23CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox FocusUITests" */;
+			buildPhases = (
+				84A3D26B23CF3929003C91F0 /* Sources */,
+				84A3D26C23CF3929003C91F0 /* Frameworks */,
+				84A3D26D23CF3929003C91F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A3D27123CF3929003C91F0 /* PBXTargetDependency */,
+			);
+			name = "Firefox FocusUITests";
+			productName = "Firefox FocusUITests";
+			productReference = 84A3D26F23CF3929003C91F0 /* Firefox FocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A3D24623CF3926003C91F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84A3D24D23CF3926003C91F0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					84A3D26323CF3929003C91F0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 84A3D24D23CF3926003C91F0;
+					};
+					84A3D26E23CF3929003C91F0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 84A3D24D23CF3926003C91F0;
+					};
+				};
+			};
+			buildConfigurationList = 84A3D24923CF3926003C91F0 /* Build configuration list for PBXProject "Firefox Focus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A3D24523CF3926003C91F0;
+			productRefGroup = 84A3D24F23CF3926003C91F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A3D24D23CF3926003C91F0 /* Firefox Focus */,
+				84A3D26323CF3929003C91F0 /* Firefox FocusTests */,
+				84A3D26E23CF3929003C91F0 /* Firefox FocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A3D24C23CF3926003C91F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3D29123CF6186003C91F0 /* PTSansNarrow-Bold.ttf in Resources */,
+				84A3D29223CF6186003C91F0 /* OpenSans-Regular.ttf in Resources */,
+				84A3D25E23CF3928003C91F0 /* LaunchScreen.storyboard in Resources */,
+				84A3D25B23CF3928003C91F0 /* Assets.xcassets in Resources */,
+				84A3D25923CF3926003C91F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26223CF3929003C91F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26D23CF3929003C91F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A3D24A23CF3926003C91F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3D2C823DA5E06003C91F0 /* WebViewController.swift in Sources */,
+				84A3D2BB23D61426003C91F0 /* MainNavigationBar.swift in Sources */,
+				84A3D2AC23D36E8C003C91F0 /* SettingsViewController.swift in Sources */,
+				84A3D2C023D90B9F003C91F0 /* SearchEngine.swift in Sources */,
+				84A3D2B123D370BE003C91F0 /* TrackingProtectionCell.swift in Sources */,
+				84A3D2AD23D36E8C003C91F0 /* MozillaSupportViewController.swift in Sources */,
+				84A3D29A23D10F83003C91F0 /* HomeViewController.swift in Sources */,
+				84A3D2B523D3B36E003C91F0 /* AboutHeaderView.swift in Sources */,
+				84A3D2A623D35233003C91F0 /* TrackingProtectionViewController.swift in Sources */,
+				84A3D2AB23D355A5003C91F0 /* Setting.swift in Sources */,
+				84A3D2C223D90E90003C91F0 /* SearchEngineSuggestion.swift in Sources */,
+				84A3D29823D10CAB003C91F0 /* MainSearchBar.swift in Sources */,
+				84A3D2A423D34EFF003C91F0 /* SettingCell.swift in Sources */,
+				84A3D2BD23D61445003C91F0 /* MainToolBar.swift in Sources */,
+				84A3D29C23D1205A003C91F0 /* SuggestionCell.swift in Sources */,
+				84A3D2C423D90FD4003C91F0 /* Suggestion.swift in Sources */,
+				84A3D29623D0EAB6003C91F0 /* Extensions.swift in Sources */,
+				84A3D2A923D35595003C91F0 /* TrackingProtection.swift in Sources */,
+				84A3D2B323D38198003C91F0 /* AboutViewController.swift in Sources */,
+				84A3D25223CF3926003C91F0 /* AppDelegate.swift in Sources */,
+				84A3D25423CF3926003C91F0 /* SceneDelegate.swift in Sources */,
+				84A3D2AF23D37091003C91F0 /* TrackingProtectionFooterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26023CF3929003C91F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3D26923CF3929003C91F0 /* Firefox_FocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3D26B23CF3929003C91F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3D27423CF3929003C91F0 /* Firefox_FocusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A3D26623CF3929003C91F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A3D24D23CF3926003C91F0 /* Firefox Focus */;
+			targetProxy = 84A3D26523CF3929003C91F0 /* PBXContainerItemProxy */;
+		};
+		84A3D27123CF3929003C91F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A3D24D23CF3926003C91F0 /* Firefox Focus */;
+			targetProxy = 84A3D27023CF3929003C91F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A3D25723CF3926003C91F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A3D25823CF3926003C91F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A3D25C23CF3928003C91F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A3D25D23CF3928003C91F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A3D27623CF3929003C91F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A3D27723CF3929003C91F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A3D27923CF3929003C91F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox Focus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-Focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84A3D27A23CF3929003C91F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox Focus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-Focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84A3D27C23CF3929003C91F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox FocusTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-FocusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firefox Focus.app/Firefox Focus";
+			};
+			name = Debug;
+		};
+		84A3D27D23CF3929003C91F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox FocusTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-FocusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firefox Focus.app/Firefox Focus";
+			};
+			name = Release;
+		};
+		84A3D27F23CF3929003C91F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox FocusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-FocusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firefox Focus";
+			};
+			name = Debug;
+		};
+		84A3D28023CF3929003C91F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7FCKM78VQ;
+				INFOPLIST_FILE = "Firefox FocusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.osakac.cs.hisalab.Firefox-FocusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firefox Focus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A3D24923CF3926003C91F0 /* Build configuration list for PBXProject "Firefox Focus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3D27623CF3929003C91F0 /* Debug */,
+				84A3D27723CF3929003C91F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3D27823CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox Focus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3D27923CF3929003C91F0 /* Debug */,
+				84A3D27A23CF3929003C91F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3D27B23CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox FocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3D27C23CF3929003C91F0 /* Debug */,
+				84A3D27D23CF3929003C91F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3D27E23CF3929003C91F0 /* Build configuration list for PBXNativeTarget "Firefox FocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3D27F23CF3929003C91F0 /* Debug */,
+				84A3D28023CF3929003C91F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A3D24623CF3926003C91F0 /* Project object */;
+}
