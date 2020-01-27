@@ -1,4 +1,4 @@
-## Firefox-Focus
+# Firefox-Focus
 
 # Overview
 
